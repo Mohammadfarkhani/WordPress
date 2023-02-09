@@ -1,0 +1,192 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+html {
+  font-family: "vazir";
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-gap: 2px;
+}
+nav .Right {
+  display: flex;
+  justify-content: center;
+}
+nav .Right .header-logo {
+  display: flex;
+  background-image: url(../images/logo.png);
+  background-size: cover;
+  width: 150px;
+  height: 150px;
+  margin: 5px 5px;
+}
+nav .Center {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  justify-content: center;
+}
+nav .Center .list ul {
+  display: flex;
+  flex-direction: row;
+}
+nav .Center .list ul li {
+  margin: 5px;
+  padding: 3px;
+}
+nav .Center .list ul li a {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #909398;
+  text-decoration: none;
+}
+nav .Center .list ul li a:hover {
+  color: #ff9e22;
+}
+nav .Center .search-box {
+  margin: 0 auto;
+}
+nav .Center .search-box input {
+  background-color: #f5f5f5;
+  border: none;
+  padding: 15px 5px;
+  border-radius: 15px;
+  width: 750px;
+  font: 400 14px/1.8rem "vazir";
+}
+
+/*# sourceMappingURL=style.css.map */
